@@ -2,7 +2,6 @@
 // import { CgInsights } from "react-icons/cg"
 // import { GrSchedulePlay, GrAnalytics } from "react-icons/gr"
 // import { testifier1, testifier2, testifier3, testifier4, testifier5, testifier6 } from '../assets/images'
-// import DashImage from '../assets/images'
 
 
 export const navLinks = [
@@ -14,11 +13,6 @@ export const navLinks = [
     { href: "#download", label: "Download" },
 ];
 
-// export const dashboard = [
-//     {
-//         mainDashboard: DashImage,
-//     },
-// ];
 
 // export const features = [
 //     {

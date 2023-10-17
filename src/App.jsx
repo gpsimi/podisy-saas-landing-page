@@ -7,7 +7,7 @@ import {
   Testimoials,
   Download,
   Footer,
-} from "./assets/sections"
+} from "./sections"
 
 function App() {
   

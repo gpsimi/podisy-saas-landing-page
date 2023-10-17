@@ -2,11 +2,13 @@
 import Logo from "../assets/images/logo.png";
 import { navLinks } from '../constants';
 import { HiOutlineMenu } from "react-icons/hi"
+import PrimaryButton from "./PrimaryButton";
+import SecondaryButton from "./SecondaryButton";
 
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 bg-primary absolute z-10 w-full">
+    <header className="padding-x py-12 bg-primary absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img src={Logo} 
@@ -29,8 +31,14 @@ const Nav = () => {
         </ul>
         
         <div className="max-lg:hidden">
-          <button className='text-primary bg-buttonColor px-8 py-3 rounded font-medium border-white border hover:bg-transparent hover:text-white duration-500'>Sign Up</button>
+          <PrimaryButton
+            className={""}
+            href={"/"}
+          >
+            Sign Up 
+          </PrimaryButton>         
         </div>
+        
         <div className="hidden max-lg:block cursor-pointer">
             <HiOutlineMenu 
               width={40}

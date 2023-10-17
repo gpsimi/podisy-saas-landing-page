@@ -1,9 +1,9 @@
 // import React from 'react'
 import Logo from "../assets/images/logo.png";
 import { navLinks } from '../constants';
+import { GiHamburgerMenu } from "react-icons/gi";
 import { HiOutlineMenu } from "react-icons/hi"
 import PrimaryButton from "./PrimaryButton";
-import SecondaryButton from "./SecondaryButton";
 
 
 const Nav = () => {
@@ -13,6 +13,7 @@ const Nav = () => {
         <a href="/">
           <img src={Logo} 
            alt="Logo" 
+           className="lg:w-[120px] max-md:w-24"
            width={120}
            height={30}
           />
@@ -40,9 +41,9 @@ const Nav = () => {
         </div>
         
         <div className="hidden max-lg:block cursor-pointer">
-            <HiOutlineMenu 
-              width={40}
-              className="text-white-400"
+           
+            <GiHamburgerMenu 
+              className="text-white-400 w-[px]"
             />
         </div>
       </nav>

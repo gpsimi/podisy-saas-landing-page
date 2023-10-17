@@ -5,6 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '800px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
@@ -13,16 +31,14 @@ export default {
       xl: ['20px', '24.38px'],
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
-      '4xl': ['48px', '58px'],
+      '4xl': ['40px', '58px'],
+      '6xl': ['70px', '78px'],
       '8xl': ['96px', '106px']
     },
     extend: {
       fontFamily: {
         josefinSans: ['Josefin Sans', 'sans-serif'],
       },
-      backgroundImage: {
-           
-        },
       colors: {
         'primary': "#161617",
         "buttonColor": "#F2F6FB",

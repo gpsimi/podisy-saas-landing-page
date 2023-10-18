@@ -1,6 +1,7 @@
-// import { MdExplore } from "react-icons/md"
-// import { CgInsights } from "react-icons/cg"
-// import { GrSchedulePlay, GrAnalytics } from "react-icons/gr"
+import EpisodeExplorer from "../assets/images/Features/episode-explorer.png";
+import AudienceInsights from "../assets/images/Features/audience-insights.png";
+import EpisodeScheduler from "../assets/images/Features/episode-scheduler.png";
+import AnalyticsHub from "../assets/images/Features/analytics-hub.png";
 // import { testifier1, testifier2, testifier3, testifier4, testifier5, testifier6 } from '../assets/images'
 
 
@@ -14,28 +15,28 @@ export const navLinks = [
 ];
 
 
-// export const features = [
-//     {
-//         icon: <MdExplore />,
-//         label: "Episode Explorer",
-//         subtext: "Seamlessly navigate through past episodes, reliving memorable moments and discovering hidden gems"
-//     },
-//     {
-//         icon: <CgInsights />,
-//         label: "Audience Insigh",
-//         subtext: "Undercover valuable data on when, where and how your audience engages optimizing what you listen to."
-//     },
-//     {
-//         icon: <GrSchedulePlay />,
-//         label: "Episode Scheduler",
-//         subtext: "Stay connected with your listeners in real-time, tracking comments, like and shares."
-//     },
-//     {
-//         icon: <GrAnalytics />,
-//         label: "Analytics Hub",
-//         subtext: "Access comprehensive analytics that provide a deeper understanding of your podcast’s reach."
-//     },
-// ];
+export const features = [
+    {
+        imgURL: EpisodeExplorer,
+        label: "Episode Explorer",
+        subtext: "Seamlessly navigate through past episodes, reliving memorable moments and discovering hidden gems"
+    },
+    {
+        imgURL: AudienceInsights,
+        label: "Audience Insight",
+        subtext: "Undercover valuable data on when, where and how your audience engages optimizing what you listen to."
+    },
+    {
+        imgURL: EpisodeScheduler,
+        label: "Episode Scheduler",
+        subtext: "Stay connected with your listeners in real-time, tracking comments, like and shares."
+    },
+    {
+        imgURL: AnalyticsHub,
+        label: "Analytics Hub",
+        subtext: "Access comprehensive analytics that provide a deeper understanding of your podcast’s reach."
+    },
+];
 
 // export const testimonials = [
 //     {

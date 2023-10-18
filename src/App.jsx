@@ -18,19 +18,19 @@ function App() {
       <section className="bg-primary xl:pading-1 wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="bg-primary padding">
+      <section id="features" className="bg-primary padding">
         <Features />
       </section>
-      <section className="padding">
+      <section id="overview" className="bg-primary padding">
         <Overview />
       </section>
-      <section className="padding">
+      <section id="explore" className="padding">
         <Explore />
       </section>
-      <section className="padding">
+      <section id="testimonials" className="padding">
         <Testimoials />
       </section>
-      <section className="padding">
+      <section id="download" className="padding">
         <Download />
       </section>
       <section className="padding-x padding-t pb-8">

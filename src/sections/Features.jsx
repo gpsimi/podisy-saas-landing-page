@@ -4,7 +4,7 @@ import { features } from '../constants'
 
 const Features = () => {
   return (
-    <section id="features" className="max-container">
+    <section className="max-container">
       <div className="flex flex-col justify-center items-center">
         <h2  className="text-main text-center text-[55px] max-sm:text-[17px] max-sm:leading-[23px] leading-tight font-medium max-xl:text-4xl">
           The  Podcast Platform that <br /> Solves Your Problems

@@ -18,7 +18,7 @@ function App() {
       <section className="bg-primary xl:pading-1 wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">
+      <section className="bg-primary padding">
         <Features />
       </section>
       <section className="padding">

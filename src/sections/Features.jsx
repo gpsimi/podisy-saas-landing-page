@@ -4,7 +4,7 @@ import { features } from '../constants'
 
 const Features = () => {
   return (
-    <section className="max-container">
+    <section id="features" className="max-container">
       <div className="flex flex-col justify-center items-center">
         <h2  className="text-main text-center text-[55px] max-sm:text-[17px] max-sm:leading-[23px] leading-tight font-medium max-xl:text-4xl">
           The  Podcast Platform that <br /> Solves Your Problems
@@ -14,7 +14,7 @@ const Features = () => {
           <br />data to engage the impact of the episodes.
         </p>
       </div>
-      <div className="flex justify-center mt-16 gap-10 flex-wrap">
+      <div className="flex justify-center mt-16 gap-10 max-xl:flex-wrap">
         {features.map((feature) => (
           <FeatureCard key={feature.label} {...feature} />
         ))}

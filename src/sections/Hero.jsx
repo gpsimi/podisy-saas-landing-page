@@ -8,7 +8,7 @@ import DashImage from "../assets/images/DashImage.jpg";
 const Hero = () => {
   return (
     <section 
-      id="#home"
+      id="home"
       className="w-full flex flex-col min-h-screen max-container gap-10"
     >
       <div className="relative flex flex-col items-center justify-center pt-40 max-xl:padding-x lg:pt-[230px]">       
@@ -20,29 +20,14 @@ const Hero = () => {
           taking <br /> you on an immersive journey through captivating narratives.
         </p>
 
-        {/* <div className="absolute -top-[-10%] -right-[16%]">
-          <img 
-            src={Excitement} 
-            alt=""
-            className="w-[120px]"
-          />
-        </div> */}
-
         <div className='mt-6'>
-          <PrimaryButton className={"max-sm:mt-1 mt-10 flex items-center"}>
+          <PrimaryButton className="max-sm:mt-1 mt-10 flex items-center">
             Get Started Free
             <BsArrowRightShort className='ml-1 text-3xl'/>
           </PrimaryButton>
         </div>
 
-        
-        
-        <div className="mt-16 max-sm:mt-8 p-x-4 flex items-center">
-        {/* <img 
-            src={TestifierImage1} 
-            alt=""
-            className="bg-white"
-          /> */}
+        <div className="mt-16 max-sm:mt-8">
           <img 
             src={DashImage} 
             alt="Dashboard-Image"

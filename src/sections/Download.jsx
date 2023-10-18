@@ -2,7 +2,9 @@ import React from 'react'
 
 const Download = () => {
   return (
-    <div>Download</div>
+    <section id="download">
+      Download
+    </section>
   )
 }
 

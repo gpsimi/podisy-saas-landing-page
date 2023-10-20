@@ -10,17 +10,17 @@ const Overview = () => {
           How it Works
         </h2>
         <p  className="flex flex-1 flex-wrap text-center text-white-400 text-xl  max-sm:text-[7px] leading-8 max-sm:leading-normal mt-5 max-sm:mt-1 max-xl:text-lg max-xl:leading-7">
-          The podcast dashboard's intuitive interface makes managing episodesa
+          The podcast dashboard's intuitive interface makes managing episodes a
           <br />breeze. The audience insights provide valuable data.
         </p>
       </div>
-      <div className="relative xl:mt-20 mt-10 xl:p-16 p-12 rounded-3xl bg-borderColor border border-zinc-600 object-contain ">
+      <div className="relative xl:mt-20 mt-10 xl:p-16 p-12  max-md:p-6 max-sm:p-3 rounded-2xl max-md:rounded-lg bg-borderColor border border-zinc-600 object-contain flex items-center justify-center">
         <img 
           src={OverView} 
           alt={Overview} 
-          className="rounded-2xl w-full opacity-40"
+          className="rounded-2xl w-full opacity-40 max-md:rounded"
         />
-        <BsPlayCircleFill className="absolute text-6xl text-white-400" />
+        <BsPlayCircleFill className="absolute text-6xl max-lg:text-2xl max-sm:text-xl text-buttonColor cursor-pointer" />
       </div>
     </section>
   )

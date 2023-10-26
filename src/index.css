@@ -55,3 +55,9 @@
       @apply text-slate-gray text-lg leading-7;
     } */
   }
+.text-gradient {
+  background: radial-gradient(#F2F6FB, #CDD1D9, #F2F6FB); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+
+}

@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
 
         <div className='mt-6'>
-          <PrimaryButton className="max-sm:mt-1 mt-10 flex items-center">
+          <PrimaryButton>
             Get Started Free
             <BsArrowRightShort className='ml-1 text-3xl'/>
           </PrimaryButton>

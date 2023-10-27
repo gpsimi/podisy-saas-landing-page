@@ -38,7 +38,7 @@ const Explore = () => {
           alt="imagery" 
           className="rounded-lg md:rounded-xl"
         />
-        <p className='mt-5 text-white-400 flex flex-wrap text-center font text-xl max-sm:text-sm leading-normal sm:max-w-[150px] md:max-w-[400px]'>
+        <p className='mt-5 text-white-400 flex flex-wrap text-center font text-xl max-sm:text-sm leading-normal  md:max-w-[400px]'>
           Navigate thought galaxies: Explore, engage and expand with podcasts
         </p>
       </div>

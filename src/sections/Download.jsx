@@ -11,7 +11,7 @@ const Download = () => {
         <img 
           src={Imagery} 
           alt="Imagery" 
-          className="rounded w-[500px]"
+          className="md:max-w-[500px] max-sm:rounded max-md:rounded-xl lg:rounded-2xl"
         />
         
         <div className="gap-y-8">

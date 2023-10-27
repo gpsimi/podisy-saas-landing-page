@@ -30,7 +30,7 @@ function App() {
       <section id="testimonials" className="padding">
         <Testimoials />
       </section>
-      <section id="download" className="padding">
+      <section id="download" className="bg-primary padding">
         <Download />
       </section>
       <section className="padding-x padding-t pb-8">

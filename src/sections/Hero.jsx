@@ -12,7 +12,7 @@ const Hero = () => {
       className="w-full flex flex-col min-h-screen max-container gap-10"
     >
       <div className="relative flex flex-col items-center justify-center pt-40 max-xl:padding-x lg:pt-[230px]">       
-        <h1 className='text-main text-center text-6xl max-sm:text-[17px] max-sm:leading-[23px] font-semibold max-xl:text-4xl'>
+        <h1 className='text-gradient-1 text-center text-6xl max-sm:text-[17px] max-sm:leading-[23px] font-semibold max-xl:text-4xl'>
           Experiencing the Magic Sound <br /> and Storytelling
         </h1>
         <p className='text-white-400 text-center text-xl  max-sm:text-[7px] leading-8 max-sm:leading-normal mt-5 max-sm:mt-1 max-xl:text-lg max-xl:leading-7  '>

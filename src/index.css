@@ -61,3 +61,10 @@
             -webkit-background-clip: text; 
 
 }
+
+.text-gradient-1{
+  background: linear-gradient(90deg, #b3b3b3, #fff, #b3b3b3); /* Adjust the colors as per your design */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+  /* conic-gradient(red 0deg, orange 90deg, yellow 180deg, green 270deg, blue 360deg); */
+}

@@ -8,7 +8,7 @@ const Explore = () => {
     <section className="flex flex-wrap max-xl:flex-col-reverse gap-y-6  gap-x-[150px] max-container">
       <div className="flex flex-1 flex-col justify-center items-start  ">
         <div>
-          <h2  className="text-main text-start text-[50px] max-sm:text-[20px] max-sm:leading-[23px] leading-tight font-medium max-xl:text-4xl">
+          <h2  className="text-gradient-1 text-start text-[50px] max-sm:text-[20px] max-sm:leading-[23px] leading-tight font-medium max-xl:text-4xl">
             How Podcastify Helps
             You Listen, Learn, and
             Laugh with Podcasts

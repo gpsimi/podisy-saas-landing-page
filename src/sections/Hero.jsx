@@ -9,10 +9,27 @@ const Hero = () => {
   return (
     <section 
       id="home"
-      className="w-full flex flex-col min-h-screen container mx-auto gap-10"
+      className="w-full flex flex-col min-h-screen container mx-auto items-center  lg:gap-10"
     >
+
+      <div className="mt-32 lg:mt-60 flex flex-col items-center justify-center max-w-[95%]">
+
+        <h1 className="text-gradient-1 text-3xl md:text-[60px] lg:leading-[75px] font-bold mb-4 text-center max-w-4xl ">
+          Experience the Magic of Sound and Storytelling
+        </h1>
+        <p className="mb-8 text-gray-400 text-center max-w-2xl text-md lg:text-lg ">
+          Explore vibrant soundscapes where stories of every kind come alive, taking you on an immersive journey through captivating narratives.
+        </p>
+        <button className="flex bg-white text-primary px-6 py-2 rounded-md font-semibold border border-white  hover:bg-transparent hover:text-white duration-500">
+          Get Started Free
+          <BsArrowRightShort className='ml-1 text-3xl'/>
+        </button>
+      </div>
+
+
+
+
       <div className="relative flex flex-col items-center justify-center pt-32 max-xl:padding-x lg:pt-[200px] space-y-8">       
-        {/* <h1 className='text-gradient-1 text-center text-6xl max-sm:text-[17px] max-sm:leading-[23px] font-semibold max-xl:text-4xl'> */}
         <h1 className='text-gradient-1 text-center text-[27px] font-semibold leading-[40px] md:text-[60px] md:leading-[70px] '>
           Experiencing the Magic Sound <br /> and Storytelling
         </h1>
@@ -46,6 +63,9 @@ const Hero = () => {
         </div>
 
       </div>
+
+
+
     </section>
   )
 }

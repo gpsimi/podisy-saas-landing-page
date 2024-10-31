@@ -12,9 +12,15 @@
   }
   
   @layer components {
-    .max-container {
-      max-width: 1440px;
-      margin: 0 auto;
+    .flex-center {
+      @apply flex justify-center items-center;
+    }
+  
+    .flex-between {
+      @apply flex justify-between items-center;
+    }
+    .flex-start{
+      @apply flex flex-col items-start justify-center p-8;
     }
   
     .input {
@@ -67,4 +73,21 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent
   /* conic-gradient(red 0deg, orange 90deg, yellow 180deg, green 270deg, blue 360deg); */
+}
+
+
+.glassmorphism {
+  background: rgba(245, 244, 244, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.glassmorphism2 {
+  background: rgb(22, 22, 23, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.glassmorphism3 {
+  background: rgb(22, 22, 23, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(12px);
 }

@@ -10,6 +10,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
+
+  /* mb-8 text-gray-400 text-center max-w-2xl text-md lg:text-lg  */
   
   @layer components {
     .flex-center {
@@ -21,6 +23,13 @@
     }
     .flex-start{
       @apply flex flex-col items-start justify-center p-8;
+    }
+
+    .headings {
+      @apply text-gradient-1 text-3xl md:text-[60px] lg:leading-[75px] font-bold mb-4 text-center max-w-4xl;
+    }
+    .bodyText{
+        @apply mb-8 text-gray-400 text-center max-w-2xl lg:text-lg ;
     }
   
     .input {

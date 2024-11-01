@@ -9,7 +9,7 @@ const Overview = () => {
         <h2  className="headings">
           How it Works
         </h2>
-        <p  className="bodyText ">
+        <p  className="bodyText">
         The podcast dashboard's intuitive interface makes managing episodes a
         breeze. The audience insights provide valuable data.
         </p>

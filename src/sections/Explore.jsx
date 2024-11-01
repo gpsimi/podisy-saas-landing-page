@@ -4,8 +4,8 @@ import Imagery from "../assets/images/image-2.png";
 
 const Explore = () => {
   return (
-    <section className="lg:container mx-auto lg:max-w-[90%] mt-12">
-      <div className='flex lg:flex-row flex-col-reverse gap-8 items-center justify-between lg:max-w-[90%]'>
+    <section className="]flex flex-col lg:flex-row justify-end mt-12 max-w-[90%]">
+      <div className='flex flex-col-reverse lg:flex-row items-center justify-center gap-6'>
         <div className='w-full lg:w-1/2'>
           <div>
             <h2 className="headings items-start">
@@ -31,14 +31,14 @@ const Explore = () => {
           </div>
 
         </div>
-        <div className='w-full lg:w-1/2 p-4 md:p-8 rounded-xl bg-borderColor border border-zinc-600'>
-          <div className=" ">
+        <div className='w-full lg:w-1/2 max-w-xl rounded-xl bg-borderColor border border-zinc-600'>
+          <div className="flex flex-col items-center justify-center">
             <img
               src={Imagery}
               alt="imagery"
-              className="rounded-lg md:rounded-xl -mt-12"
+              className="rounded-lg md:rounded-xl -mt-12 lg:-mt-16 max-w-xs lg:max-w-lg"
             />
-            <p className='mt-5 bodyText'>
+            <p className='mt-5 bodyText max-w-sm'>
               Navigate thought galaxies: Explore, engage and expand with podcasts
             </p>
           </div>

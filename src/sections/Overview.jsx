@@ -6,7 +6,7 @@ const Overview = () => {
   return (
     <section id="overview" className="max-container">
       <div className="flex flex-col justify-center items-center lg:mb-9">
-        <h2  className="headings">
+        <h2  className="headings text-center">
           How it Works
         </h2>
         <p  className="bodyText">

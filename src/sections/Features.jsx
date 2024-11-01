@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-col items-center ">
-        <h2  className="headings text-center max-w-3xl">
+        <h2  className="headings max-w-3xl">
           The Podcast Platform that Solves Your Problems
         </h2>
         <p  className="bodyText">

@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section id="home" className="w-full flex flex-col min-h-screen container mx-auto items-center  lg:gap-10">
       
-      <div className="mt-32 lg:mt-56 flex flex-col items-center justify-center max-w-[95%]">
-        <h1 className="headings">
+      <div className="mt-24 lg:mt-36 flex flex-col items-center justify-center max-w-[95%]">
+        <h1 className="headings max-w-4xl">
           Experience the Magic of Sound and Storytelling
         </h1>
         <p className="bodyText">

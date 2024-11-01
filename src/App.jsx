@@ -15,7 +15,7 @@ function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="bg-primary xl:pading-1 wide:padding-r padding-b">
+      <section className="bg-primary padding ">
         <Hero />
       </section>
       <section id="features" className="bg-primary padding">

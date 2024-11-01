@@ -14,7 +14,7 @@ const Hero = () => {
         <p className="bodyText">
           Explore vibrant soundscapes where stories of every kind come alive, taking you on an immersive journey through captivating narratives.
         </p>
-        <button className="flex bg-white text-primary px-6 py-2 rounded-md font-semibold border border-white  hover:bg-transparent hover:text-white duration-500">
+        <button className="flex bg-buttonColor text-primary px-6 py-2 rounded-md font-semibold border border-buttonColor  hover:bg-transparent hover:text-white duration-500">
           Get Started Free
           <BsArrowRightShort className='ml-1 text-3xl' />
         </button>

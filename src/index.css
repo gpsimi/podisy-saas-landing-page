@@ -28,6 +28,9 @@
     .headings {
       @apply text-gradient-1 text-3xl md:text-[60px] lg:leading-[75px] font-bold mb-4 text-center max-w-4xl;
     }
+    .headings-2 {
+      @apply text-gradient-1 text-2xl md:text-[60px] lg:leading-[75px] font-bold mb-4 text-center max-w-4xl;
+    }
     .bodyText{
         @apply mb-8 text-gray-400 text-center max-w-2xl lg:text-lg ;
     }

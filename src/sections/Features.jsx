@@ -1,24 +1,23 @@
 import React from 'react'
-import FeatureCard from '../components/FeatureCard'
-import { features } from '../constants'
+import FeatureCard from '../components/FeatureCard';
+import CardSpotlight from '../components/CardSpotlight';
 
 const Features = () => {
   return (
-    <section className="max-container">
-      <div className="flex flex-col justify-center items-center">
-        <h2  className="text-gradient-1 text-center text-[55px] max-sm:text-[17px] max-sm:leading-[23px] leading-tight font-medium max-xl:text-4xl">
-          The  Podcast Platform that <br /> Solves Your Problems
+    <section className="flex flex-col items-center">
+      <div className="flex flex-col items-center ">
+        <h2  className="headings-2">
+          The Podcast Platform that Solves Your Problems
         </h2>
-        <p  className="flex flex-1 flex-wrap text-center text-white-400 text-xl  max-sm:text-[10px] leading-8 max-sm:leading-normal mt-5 max-sm:mt-1 max-xl:text-lg max-xl:leading-7 max-md:max-w-[350px]">
+        <p  className="bodyText">
           The Performance analysis section equips the podcasters with comprehensive 
           <br />data to engage the impact of the episodes.
         </p>
       </div>
-      <div className="flex justify-center mt-16 gap-10 max-xl:flex-wrap">
-        {features.map((feature) => (
-          <FeatureCard key={feature.label} {...feature} />
-        ))}
+      <div className="lg:max-w-[90%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <FeatureCard />
       </div>
+     
     </section>
   )
 }

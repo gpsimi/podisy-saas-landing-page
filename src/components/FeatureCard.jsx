@@ -1,9 +1,27 @@
 import React from 'react'
+import { features } from '../constants'
 
-const FeatureCard = ({imgURL, label, subtext}) => {
+
+const FeatureCard = () => {
   return (
-    <div className="flex-1 sm:w-[300px] sm:min-w-[300px] w-full rounded-[20px] shadow-3xl px-8 py-12 border border-zinc-700 bg-excitement">
-      <div className='w-11 h-11 flex justify-center items-center border border-zinc-700 rounded-xl p-1'>
+    <>
+      {features.map((feature, index) => (
+        <div key={index} className="bg-primary border border-borderColor p-5 rounded-lg">
+          <div className='w-11 h-11 flex justify-center items-center border border-zinc-700 rounded-xl p-1'>
+            <img
+              src={feature.imgURL}
+              alt={feature.label}
+              width={24}
+              height={24}
+            />
+          </div>
+          <h3 className="mt-3 text-main text-2xl font-bold">{feature.label}</h3>
+          <p className="text-gray-400 mt-2">{feature.subtext}</p>
+        </div>
+      ))}
+
+
+      {/* <div className='w-11 h-11 flex justify-center items-center border border-zinc-700 rounded-xl p-1'>
         <img 
          src={imgURL} 
          alt={label}
@@ -12,8 +30,8 @@ const FeatureCard = ({imgURL, label, subtext}) => {
         />
       </div>
       <h3 className="mt-5 text-main text-3xl max-sm:text-2xl leading-normal max-sm:font-semibold font-bold">{label}</h3>
-      <p className="mt-3 break-words text-white-400 font-montserrat text-lg max-sm:text-base leading-normal text-slate-gray">{subtext}</p>
-    </div>
+      <p className="mt-3 break-words text-white-400 font-montserrat text-lg max-sm:text-base leading-normal text-slate-gray">{subtext}</p> */}
+    </>
   )
 }
 

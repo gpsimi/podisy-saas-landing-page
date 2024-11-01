@@ -27,7 +27,7 @@ function App() {
       <section id="explore" className="bg-primary padding">
         <Explore />
       </section>
-      <section id="testimonials" className="padding">
+      <section id="testimonials" className="bg-primary padding">
         <Testimoials />
       </section>
       <section id="download" className="bg-primary padding">

@@ -15,7 +15,7 @@ const FeatureCard = () => {
               height={24}
             />
           </div>
-          <h3 className="mt-3 text-main text-2xl font-bold">{feature.label}</h3>
+          <h3 className="mt-3 text-main text-xl font-semibold">{feature.label}</h3>
           <p className="text-gray-400 mt-2">{feature.subtext}</p>
         </div>
       ))}

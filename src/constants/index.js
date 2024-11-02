@@ -76,6 +76,25 @@ export const features = [
 //     }
 // ];
 
+
+export const testimonials = [
+    { 
+        name: "Wade Warren", 
+        role: "Student", 
+        quote: "Track and measure your podcast performance with detailed insights." 
+    },
+    { 
+        name: "Theresa Webb", 
+        role: "Student", 
+        quote: "Customizable playlists enable podcasters to curate themed collections." 
+    },
+    { 
+        name: "Jerome Bell", 
+        role: "Student", 
+        quote: "Transcription services make podcasts more accessible and inclusive." 
+    },
+  ];
+
 export const footerLinks = [
     {
         title: "Helping artice",

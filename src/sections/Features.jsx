@@ -6,10 +6,10 @@ const Features = () => {
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-col items-center ">
-        <h2  className="headings max-w-3xl">
+        <h2  className="headings max-w-3xl text-start lg:text-center">
           The Podcast Platform that Solves Your Problems
         </h2>
-        <p  className="bodyText">
+        <p  className="bodyText text-start lg:text-center">
           The Performance analysis section equips the podcasters with comprehensive 
           <br />data to engage the impact of the episodes.
         </p>

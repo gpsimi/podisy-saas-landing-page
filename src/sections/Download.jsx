@@ -5,7 +5,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Download = () => {
   return (
-    <section className="flex flex-wrap max-container">
+    <section className="flex flex-col lg:flex-row justify-center lg:container">
       <div className="flex justify-between flex-col md:flex-row gap-y-8  gap-x-[60px]  bg-borderColor border border-zinc-600 p-6 md:p-16 rounded-2xl">
 
         <img

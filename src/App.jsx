@@ -33,7 +33,7 @@ function App() {
       <section id="download" className="bg-primary padding">
         <Download />
       </section>
-      <section className="bg-primary padding padding-t pb-8">
+      <section className="bg-primary">
         <Footer />
       </section>
     </main>

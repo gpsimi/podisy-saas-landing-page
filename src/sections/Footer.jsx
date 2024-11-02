@@ -5,8 +5,8 @@ import { footerLinks } from '../constants';
 
 const Footer = () => {
   return (
-    <footer className="max-container">
-      <div className="flex justify-between items-center flex-wrap max-lg:flex-col">
+    <footer className="container mx-auto">
+      <div className="flex justify-between items-center ">
         <div className="flex flex-1 flex-col items-start">
           <a href="/">
             <img 

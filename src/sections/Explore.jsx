@@ -4,7 +4,7 @@ import Imagery from "../assets/images/image-2.png";
 
 const Explore = () => {
   return (
-    <section className="]flex flex-col lg:flex-row justify-end mt-12 lg:container">
+    <section className="flex flex-col lg:flex-row justify-end mt-12 lg:container">
       <div className='flex flex-col-reverse lg:flex-row items-center justify-center gap-6'>
         <div className='w-full lg:w-1/2'>
           <div>

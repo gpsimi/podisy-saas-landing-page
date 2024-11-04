@@ -30,7 +30,7 @@ function App() {
       <section id="testimonials" className="bg-primary padding">
         <Testimoials />
       </section>
-      <section id="download" className="bg-primary padding">
+      <section id="download" className="bg-primary ">
         <Download />
       </section>
       <section className="bg-primary">

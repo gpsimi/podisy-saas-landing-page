@@ -5,8 +5,8 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Download = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-center lg:container">
-      <div className="flex justify-between flex-col md:flex-row gap-y-8  gap-x-[60px]  bg-borderColor border border-zinc-600 p-6 md:p-16 rounded-2xl">
+    <section className="container mx-auto md:max-w-[80%]">
+      <div className="flex justify-between flex-col md:flex-row gap-y-4  gap-x-12  bg-borderColor border border-zinc-600 p-4 md:p-10 rounded-2xl">
 
         <img
           src={Imagery}
@@ -16,8 +16,8 @@ const Download = () => {
 
         <div className="gap-y-8">
 
-          <h2 className="headings items-start">
-            We provide the Latest <br /> podcasts for you
+          <h2 className="headings items-start max-w-2xl">
+            We provide the Latest podcasts for you
           </h2>
           <p className="bodyText text-start max-w-lg">
             Track and measure your podcast performance,
